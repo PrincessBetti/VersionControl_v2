@@ -65,14 +65,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(420, 28);
+            this.textBox1.Location = new System.Drawing.Point(464, 28);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(161, 22);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(420, 72);
+            this.textBox2.Location = new System.Drawing.Point(464, 72);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(161, 22);
             this.textBox2.TabIndex = 4;
@@ -81,10 +81,11 @@
             // 
             this.button1.Location = new System.Drawing.Point(371, 125);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(210, 58);
+            this.button1.Size = new System.Drawing.Size(254, 58);
             this.button1.TabIndex = 5;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
